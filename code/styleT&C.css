@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    justify-content: center;
+    background-color: black;
+}
+.section .row1{
+    display: flex;
+}
+@media(max-width:1024px){
+    .section .row1{
+        display: none;
+    }
+}
+.section .row2{
+    display: none;
+}
+@media(max-width:1024px){
+    .section .row2{
+        display: flex;
+        /*position: fixed;
+        top: 0;
+        width: 320px;
+        background-color: blue;
+        height: 100%;
+        left: 0;*/
+    }
+}
+@media(max-width:1024px){
+    .row2 .image1{
+        margin: 40px 0 0 30px;
+        cursor: pointer;
+        
+    }
+}
+@media(max-width:1024px){
+    .row2 .image2{
+        position: relative;
+        left: 260px;
+        top: 50px;
+        cursor: pointer;
+    }
+}
+.row1 a{
+    text-decoration: none;
+    color: white;
+    padding: 0 20px 0 70px;
+}
+.row1 .right{
+    padding: 80px 0 40px 0;
+}
+.row1 .image{
+    position: relative;
+    left: 240px;
+    top: 40px;
+    cursor: pointer;
+}
+.row1 .left{
+    margin-left: auto;
+    padding: 80px 70px 40px 0;
+}
+.left a{
+    padding-right: 90px;
+}
+.left button[type=button]{
+    padding: 10px 40px;
+    border-radius: 8px;
+    background-color: rgba(238, 46, 46, 0.856);
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+.row1 a:hover{
+    font-weight: bolder;
+}
+.section2{
+    color: white;
+    padding: 150px 90px 10px 90px;
+}
+@media(max-width:1024px){
+    .section2{
+        padding: 140px 15px;        
+    }
+}
+.section2 h1{
+    padding: 8px 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.section2 p{
+    font-style: italic;
+    padding: 15px 0;
+}
+.section2 h3{
+    padding-top: 50px;
+}
+.section3{
+    text-align: center;
+    padding: 100px 0 25px 0;
+}
+.section3 p{
+    color: white;
+    font-size: 15px;
+    padding-top: 10px;
+}
